@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/UIPlugins/libBoolUI
+branches:
+- master
+projects:
+  libBoolUI:
+    path: ""
+    model: virion
+    type: library
+...
