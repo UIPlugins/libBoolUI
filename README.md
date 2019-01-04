@@ -1,4 +1,5 @@
 # libBoolUI
+[![HitCount](http://hits.dwyl.io/UIPlugins/libBoolUI.svg)](http://hits.dwyl.io/UIPlugins/libBoolUI)
 A simple API to create yes no forms
 # Documentation
 This library is to make easy things easier (and have less boilerplate), so here's some docs to help!
@@ -21,7 +22,7 @@ Add the buttons by calling the method ```registerButtons()``` in your object!
 $form->registerButtons();
 ```
 
-Optionally, you can change the text for the buttons by passing the an argument to the method.
+Optionally, you can change the text for the buttons by passing an argument to the method.
 
 ```
 $form->registerButtons(['Custom Yes', 'Custom No']);

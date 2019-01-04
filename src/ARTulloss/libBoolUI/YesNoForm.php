@@ -149,9 +149,9 @@ class YesNoForm implements Form
 		if($this->forcedInput && $data === null)
 			$player->sendForm($this);
 		else {
-			$data = (bool) !$data; // Flip because it makes more sense for a yes no form to return true if they hit yes and false if they hit false
+			$data = (bool) $data; // Flip because it makes more sense for a yes no form to return true if they hit yes and false if they hit false
 
-			if($this->flipped)
+			if(!$this->flipped)
 				$data = !$data;
 
 			$callable = $this->getCallable();
