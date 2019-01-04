@@ -1,5 +1,4 @@
-# libBoolUI
-[![HitCount](http://hits.dwyl.io/UIPlugins/libBoolUI.svg)](http://hits.dwyl.io/UIPlugins/libBoolUI)
+# libBoolUI [![HitCount](http://hits.dwyl.io/UIPlugins/libBoolUI.svg)](http://hits.dwyl.io/UIPlugins/libBoolUI)
 A simple API to create yes no forms
 # Documentation
 This library is to make easy things easier (and have less boilerplate), so here's some docs to help!
